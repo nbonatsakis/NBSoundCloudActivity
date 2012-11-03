@@ -1,0 +1,1 @@
+../../CocoaSoundCloudAPI/Sources/SoundCloudAPI/SCConstants.h

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0172742E16375C450027D555 /* NBSoundCloudActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0172742D16375C450027D555 /* NBSoundCloudActivity.m */; };
+		0172743516375F1B0027D555 /* soundcloud_activity.png in Resources */ = {isa = PBXBuildFile; fileRef = 0172743316375F1B0027D555 /* soundcloud_activity.png */; };
+		0172743616375F1B0027D555 /* soundcloud_activity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0172743416375F1B0027D555 /* soundcloud_activity@2x.png */; };
+		0172743816377DB30027D555 /* sample.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0172743716377DB30027D555 /* sample.caf */; };
+		0172743A16377E0E0027D555 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0172743916377E0E0027D555 /* AVFoundation.framework */; };
+		3E2A750B189F432395D32984 /* libPods-NBSoundCloudActivityTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D972D3082397436AA0CC8B28 /* libPods-NBSoundCloudActivityTests.a */; };
+		726C9DC7163EF99C003251AA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0172743916377E0E0027D555 /* AVFoundation.framework */; };
 		7295B0FB1637314100549B7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7295B0FA1637314100549B7D /* UIKit.framework */; };
 		7295B0FD1637314100549B7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7295B0FC1637314100549B7D /* Foundation.framework */; };
 		7295B0FF1637314100549B7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7295B0FE1637314100549B7D /* CoreGraphics.framework */; };
@@ -23,6 +30,7 @@
 		7295B1211637314300549B7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7295B0FC1637314100549B7D /* Foundation.framework */; };
 		7295B1291637314300549B7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7295B1271637314300549B7D /* InfoPlist.strings */; };
 		7295B12C1637314300549B7D /* NBSoundCloudActivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7295B12B1637314300549B7D /* NBSoundCloudActivityTests.m */; };
+		F6D001E66EE544408758ADD0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF104E78E8D48FAAC1935F2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0172742C16375C450027D555 /* NBSoundCloudActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSoundCloudActivity.h; sourceTree = "<group>"; };
+		0172742D16375C450027D555 /* NBSoundCloudActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBSoundCloudActivity.m; sourceTree = "<group>"; };
+		0172743316375F1B0027D555 /* soundcloud_activity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soundcloud_activity.png; sourceTree = "<group>"; };
+		0172743416375F1B0027D555 /* soundcloud_activity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soundcloud_activity@2x.png"; sourceTree = "<group>"; };
+		0172743716377DB30027D555 /* sample.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.caf; sourceTree = "<group>"; };
+		0172743916377E0E0027D555 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1AE4F940894C4BB8BBD56D04 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		7295B0F61637314100549B7D /* NBSoundCloudActivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBSoundCloudActivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7295B0FA1637314100549B7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		7295B0FC1637314100549B7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7295B0FE1637314100549B7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7295B0FA1637314100549B7D /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7295B0FC1637314100549B7D /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7295B0FE1637314100549B7D /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7295B1021637314200549B7D /* NBSoundCloudActivity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NBSoundCloudActivity-Info.plist"; sourceTree = "<group>"; };
 		7295B1041637314200549B7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7295B1061637314200549B7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,11 +68,14 @@
 		7295B1151637314200549B7D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7295B1161637314200549B7D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7295B11D1637314300549B7D /* NBSoundCloudActivityTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBSoundCloudActivityTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7295B11E1637314300549B7D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7295B11E1637314300549B7D /* SenTestingKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		7295B1261637314300549B7D /* NBSoundCloudActivityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NBSoundCloudActivityTests-Info.plist"; sourceTree = "<group>"; };
 		7295B1281637314300549B7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7295B12A1637314300549B7D /* NBSoundCloudActivityTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBSoundCloudActivityTests.h; sourceTree = "<group>"; };
 		7295B12B1637314300549B7D /* NBSoundCloudActivityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBSoundCloudActivityTests.m; sourceTree = "<group>"; };
+		97F0DD573C4D47948534E3B7 /* Pods-NBSoundCloudActivityTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBSoundCloudActivityTests.xcconfig"; path = "Pods/Pods-NBSoundCloudActivityTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		9AF104E78E8D48FAAC1935F2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D972D3082397436AA0CC8B28 /* libPods-NBSoundCloudActivityTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NBSoundCloudActivityTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +83,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0172743A16377E0E0027D555 /* AVFoundation.framework in Frameworks */,
 				7295B0FB1637314100549B7D /* UIKit.framework in Frameworks */,
 				7295B0FD1637314100549B7D /* Foundation.framework in Frameworks */,
 				7295B0FF1637314100549B7D /* CoreGraphics.framework in Frameworks */,
+				F6D001E66EE544408758ADD0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +98,23 @@
 				7295B11F1637314300549B7D /* SenTestingKit.framework in Frameworks */,
 				7295B1201637314300549B7D /* UIKit.framework in Frameworks */,
 				7295B1211637314300549B7D /* Foundation.framework in Frameworks */,
+				3E2A750B189F432395D32984 /* libPods-NBSoundCloudActivityTests.a in Frameworks */,
+				726C9DC7163EF99C003251AA /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0172742A16375C250027D555 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0172742C16375C450027D555 /* NBSoundCloudActivity.h */,
+				0172742D16375C450027D555 /* NBSoundCloudActivity.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
 		7295B0EB1637314000549B7D = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +122,8 @@
 				7295B1241637314300549B7D /* NBSoundCloudActivityTests */,
 				7295B0F91637314100549B7D /* Frameworks */,
 				7295B0F71637314100549B7D /* Products */,
+				1AE4F940894C4BB8BBD56D04 /* Pods.xcconfig */,
+				97F0DD573C4D47948534E3B7 /* Pods-NBSoundCloudActivityTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,10 +139,13 @@
 		7295B0F91637314100549B7D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0172743916377E0E0027D555 /* AVFoundation.framework */,
 				7295B0FA1637314100549B7D /* UIKit.framework */,
 				7295B0FC1637314100549B7D /* Foundation.framework */,
 				7295B0FE1637314100549B7D /* CoreGraphics.framework */,
 				7295B11E1637314300549B7D /* SenTestingKit.framework */,
+				9AF104E78E8D48FAAC1935F2 /* libPods.a */,
+				D972D3082397436AA0CC8B28 /* libPods-NBSoundCloudActivityTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,6 +153,7 @@
 		7295B1001637314200549B7D /* NBSoundCloudActivity */ = {
 			isa = PBXGroup;
 			children = (
+				0172742A16375C250027D555 /* Source */,
 				7295B1091637314200549B7D /* AppDelegate.h */,
 				7295B10A1637314200549B7D /* AppDelegate.m */,
 				7295B1121637314200549B7D /* MainStoryboard.storyboard */,
@@ -131,6 +168,9 @@
 			isa = PBXGroup;
 			children = (
 				7295B1021637314200549B7D /* NBSoundCloudActivity-Info.plist */,
+				0172743716377DB30027D555 /* sample.caf */,
+				0172743316375F1B0027D555 /* soundcloud_activity.png */,
+				0172743416375F1B0027D555 /* soundcloud_activity@2x.png */,
 				7295B1031637314200549B7D /* InfoPlist.strings */,
 				7295B1061637314200549B7D /* main.m */,
 				7295B1081637314200549B7D /* NBSoundCloudActivity-Prefix.pch */,
@@ -170,6 +210,7 @@
 				7295B0F21637314000549B7D /* Sources */,
 				7295B0F31637314000549B7D /* Frameworks */,
 				7295B0F41637314000549B7D /* Resources */,
+				902A6BC91AC04099BE6D28DC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,6 +229,7 @@
 				7295B1191637314300549B7D /* Frameworks */,
 				7295B11A1637314300549B7D /* Resources */,
 				7295B11B1637314300549B7D /* ShellScript */,
+				EF3C015B2B7649A39AFA09C1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +278,9 @@
 				7295B10F1637314200549B7D /* Default@2x.png in Resources */,
 				7295B1111637314200549B7D /* Default-568h@2x.png in Resources */,
 				7295B1141637314200549B7D /* MainStoryboard.storyboard in Resources */,
+				0172743516375F1B0027D555 /* soundcloud_activity.png in Resources */,
+				0172743616375F1B0027D555 /* soundcloud_activity@2x.png in Resources */,
+				0172743816377DB30027D555 /* sample.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +308,34 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		902A6BC91AC04099BE6D28DC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		EF3C015B2B7649A39AFA09C1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-NBSoundCloudActivityTests-resources.sh\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -273,6 +346,7 @@
 				7295B1071637314200549B7D /* main.m in Sources */,
 				7295B10B1637314200549B7D /* AppDelegate.m in Sources */,
 				7295B1171637314200549B7D /* ViewController.m in Sources */,
+				0172742E16375C450027D555 /* NBSoundCloudActivity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +447,7 @@
 		};
 		7295B1301637314300549B7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AE4F940894C4BB8BBD56D04 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NBSoundCloudActivity/NBSoundCloudActivity-Prefix.pch";
@@ -384,6 +459,7 @@
 		};
 		7295B1311637314300549B7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AE4F940894C4BB8BBD56D04 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NBSoundCloudActivity/NBSoundCloudActivity-Prefix.pch";
@@ -395,6 +471,7 @@
 		};
 		7295B1331637314300549B7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F0DD573C4D47948534E3B7 /* Pods-NBSoundCloudActivityTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NBSoundCloudActivity.app/NBSoundCloudActivity";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -412,6 +489,7 @@
 		};
 		7295B1341637314300549B7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F0DD573C4D47948534E3B7 /* Pods-NBSoundCloudActivityTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NBSoundCloudActivity.app/NBSoundCloudActivity";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -446,6 +524,7 @@
 				7295B1311637314300549B7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7295B1321637314300549B7D /* Build configuration list for PBXNativeTarget "NBSoundCloudActivityTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +533,7 @@
 				7295B1341637314300549B7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

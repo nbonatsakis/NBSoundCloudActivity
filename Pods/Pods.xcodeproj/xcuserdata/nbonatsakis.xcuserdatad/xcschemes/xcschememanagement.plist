@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-NBSoundCloudActivityTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>17E3268AC8AD4A91A93E09D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>19CFD78D0C6540BDA78A7280</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>917DA00E5A164DDE83E983A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AAA062BCFDCE410DA3D866DA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F44692C4E6644E28B46BAC04</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

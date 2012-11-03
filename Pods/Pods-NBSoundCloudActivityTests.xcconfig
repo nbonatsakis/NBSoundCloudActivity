@@ -1,0 +1,7 @@
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_HEADERS_SEARCH_PATHS = ${PODS_PUBLIC_HEADERS_SEARCH_PATHS}
+ALWAYS_SEARCH_USER_PATHS = YES
+OTHER_LDFLAGS = -ObjC -lstdc++
+HEADER_SEARCH_PATHS = ${PODS_HEADERS_SEARCH_PATHS}
+PODS_BUILD_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/CocoaSoundCloudAPI" "${PODS_ROOT}/BuildHeaders/CocoaSoundCloudUI" "${PODS_ROOT}/BuildHeaders/JSONKit" "${PODS_ROOT}/BuildHeaders/NXOAuth2Client" "${PODS_ROOT}/BuildHeaders/OHAttributedLabel" "${PODS_ROOT}/BuildHeaders/OCHamcrest" "${PODS_ROOT}/BuildHeaders/OCMockito"
+PODS_PUBLIC_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/CocoaSoundCloudAPI" "${PODS_ROOT}/Headers/CocoaSoundCloudUI" "${PODS_ROOT}/Headers/JSONKit" "${PODS_ROOT}/Headers/NXOAuth2Client" "${PODS_ROOT}/Headers/OHAttributedLabel" "${PODS_ROOT}/Headers/OCHamcrest" "${PODS_ROOT}/Headers/OCMockito"

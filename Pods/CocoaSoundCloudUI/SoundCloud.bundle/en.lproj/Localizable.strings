@@ -1,0 +1,113 @@
+"connection_error_ok" = "OK";
+
+"connection_faild" = "Connection failed";
+
+"place_picker_title" = "Where?";
+
+"place_picker_reset" = "Reset";
+
+"place_picker_placeholder" = "Add Your Place";
+
+"place_picker_nearby" = "Nearby";
+
+"cancel" = "Cancel";
+
+"close" = "Close";
+
+"done" = "Done";
+
+"upload_and_share" = "Upload & Share";
+
+"sc_upload_with_access" = "With Access";
+
+"sc_upload_only_you" = "Only you";
+
+"configure" = "Configure";
+
+"sc_upload_sharing_options_public" = "Your sound will be shared to SoundCloud. Where else would you like to share it?";
+
+"sc_upload_sharing_options_private" = "Your track will be private after the upload. You want to share it with others?";
+
+"connection_list_footer" = "To change your default sharing options, go to your settings on SoundCloud and select 'Connections'";
+
+"sc_upload_connect_to" = "Connect %@";
+
+"artwork_reset" = "Reset";
+
+"recording_image" = "Cover Image";
+
+"use_existing_image" = "Photo Library";
+
+"take_new_picture" = "Camera";
+
+"retry_upload" = "Try again";
+
+"recording_title_at_location_name" = "%@ at %@";
+
+"recording_at_location" = "Sounds at %@";
+
+"recording_from_data" = "Sounds from %@";
+
+"record_save_logout" = "Log out";
+
+"record_save_add_cover_artwork" = "Add\nimage";
+
+"record_save_where" = "Where";
+
+"record_save_what" = "What";
+
+"sc_upload_private" = "Private";
+
+"sc_upload_public" = "Public";
+
+"record_save_uploading" = "Uploading ...";
+
+"record_save_upload_success" = "Yay, that worked!";
+
+"record_save_upload_fail" = "Ok, that went wrong.";
+
+"shared_to_email_adresses" = "Email Addresses";
+
+"shared_to_to" = "To:";
+
+"weekday_monday" = "Monday";
+
+"weekday_tuesday" = "Tuesday";
+
+"weekday_wednesday" = "Wednesday";
+
+"weekday_thursday" = "Thursday";
+
+"weekday_friday" = "Friday";
+
+"weekday_saturday" = "Saturday";
+
+"weekday_sunday" = "Sunday";
+
+"timeframe_afternoon" = "afternoon";
+
+"timeframe_evening" = "evening";
+
+"timeframe_morning" = "morning";
+
+"timeframe_night" = "night";
+
+"open_soundcloud_app" = "Open Track in SoundCloud App";
+
+"download_soundcloud_app" = "Get SoundCloud App";
+
+"service_facebook" = "Facebook";
+
+"service_foursquare" = "Foursquare";
+
+"service_tumblr" = "Tumblr";
+
+"service_twitter" = "Twitter";
+
+"record_save_upload_success_message_app" = "See who's commenting on your sounds by opening it in the SoundCloud app.";
+
+"record_save_upload_success_message_appstore" = "See who's commenting on your sounds by downloading the %@ SoundCloud app.";
+
+"record_save_upload_success_message_appstore_substring" = "free";
+
+"open_soundcloud" = "Open SoundCloud";

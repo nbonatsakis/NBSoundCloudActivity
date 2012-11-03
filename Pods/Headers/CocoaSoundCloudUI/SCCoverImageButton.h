@@ -1,0 +1,1 @@
+../../CocoaSoundCloudUI/Sources/SoundCloudUI/SCCoverImageButton.h

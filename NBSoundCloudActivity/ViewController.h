@@ -10,4 +10,6 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)shareAudioTouched:(id)sender;
+
 @end

@@ -1,0 +1,1 @@
+../../CocoaSoundCloudUI/Sources/SoundCloudUI/SCConnectToSoundCloudTitleView.h
