@@ -32,6 +32,7 @@ Using NBSoundCloudActivity couldn't be easier. All you have to do is create an i
 iOS will present the user with a standard activity view where the user can select "SoundCloud" as an option and be brought through the standard SoundCloud sharing UI. 
 
 #Contact
+***
 ##Creators
 This library was created and is maintained by Nick Bonatsakis.
 
@@ -43,5 +44,5 @@ This library was created and is maintained by Nick Bonatsakis.
 Feedback via suggestions or pull requests is strongly encouraged. Please do not submit any pull requests without accompanying unit tests. 
 
 #License
-
+***
 NBSoundCloudActivity is available under the MIT license. See the LICENSE file for more info.
