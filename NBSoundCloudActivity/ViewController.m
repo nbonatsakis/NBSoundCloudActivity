@@ -37,7 +37,7 @@
     AVURLAsset* asset = [AVURLAsset assetWithURL:sampleURL];
     
     NBSoundCloudActivity* scActivity = [[NBSoundCloudActivity alloc] initWithClientId:kSoundCloudClientId secret:kSoundCloudClientSecret
-                                                                          redirectURL:[NSURL URLWithString:@"simplemic://soundcloudlogin"]];
+                                                                          redirectURL:[NSURL URLWithString:@"myapp://soundcloudlogin"]];
     
     UIActivityViewController* avc = [[UIActivityViewController alloc] initWithActivityItems:@[asset]
                                                                       applicationActivities:@[scActivity]];
