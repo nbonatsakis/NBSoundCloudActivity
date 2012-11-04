@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "NBSoundCloudActivity/NBSoundCloudActivity.m"
-         timestampString = "373607918.386566"
+         timestampString = "373710875.370303"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "57"
-         endingLineNumber = "57"
+         startingLineNumber = "75"
+         endingLineNumber = "75"
          landmarkName = "-canPerformWithActivityItems:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -21,12 +21,38 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "NBSoundCloudActivity/NBSoundCloudActivity.m"
-         timestampString = "373607954.352222"
+         timestampString = "373710875.370303"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "53"
-         endingLineNumber = "53"
+         startingLineNumber = "71"
+         endingLineNumber = "71"
          landmarkName = "-activityImage"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "NBSoundCloudActivity/NBSoundCloudActivity.m"
+         timestampString = "373711013.595042"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "103"
+         endingLineNumber = "103"
+         landmarkName = "-activityViewController"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "NBSoundCloudActivity/NBSoundCloudActivity.m"
+         timestampString = "373711090.951495"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "128"
+         endingLineNumber = "128"
+         landmarkName = "-handleSCShareViewCompletion:error:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

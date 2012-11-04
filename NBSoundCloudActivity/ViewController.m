@@ -10,8 +10,9 @@
 #import "NBSoundCloudActivity.h"
 #import <AVFoundation/AVFoundation.h>
 
-#define kSoundCloudClientId @"1cad14bf97b98769a495713448f669b4"
-#define kSoundCloudClientSecret @"86886ad2b60e3a2ce656ef8e37c83235"
+#define kSoundCloudClientId @""
+#define kSoundCloudClientSecret @""
+#define kSoundCloudReferrerUrl @""
 
 @interface ViewController ()
 
@@ -37,7 +38,7 @@
     AVURLAsset* asset = [AVURLAsset assetWithURL:sampleURL];
     
     NBSoundCloudActivity* scActivity = [[NBSoundCloudActivity alloc] initWithClientId:kSoundCloudClientId secret:kSoundCloudClientSecret
-                                                                          redirectURL:[NSURL URLWithString:@"myapp://soundcloudlogin"]];
+                                                                          redirectURL:[NSURL URLWithString:kSoundCloudRedirectUrl]];
     
     UIActivityViewController* avc = [[UIActivityViewController alloc] initWithActivityItems:@[asset]
                                                                       applicationActivities:@[scActivity]];

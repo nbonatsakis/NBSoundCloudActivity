@@ -10,7 +10,9 @@ The sample project uses [CocoaPods](http://www.cocoapods.org) to manage dependen
 
 	pod install
 
-Now you're ready to open the sample project and run it. Make sure you open the NBSoundCloudActivity.xcworkspace in order to get the Pods dependencies. Once you're satisfied, you can copy the code in "Source" into your own project. Keep in mind you'll also need the [SoundCloud SDK](https://github.com/soundcloud/CocoaSoundCloudAPI) dependencies in your own project as well.
+Now you're ready to open the sample project and run it. Make sure you open the NBSoundCloudActivity.xcworkspace in order to get the Pods dependencies. In "ViewController.m" you'll also need to set the Client ID, Client Secret, and Redirect URL for your SoundCloud account in order for the demo to work. 
+
+Once you're satisfied, you can copy the code in "Source" into your own project. Keep in mind you'll also need the [SoundCloud SDK](https://github.com/soundcloud/CocoaSoundCloudAPI) dependencies in your own project as well.
 
 #Usage
 ***
