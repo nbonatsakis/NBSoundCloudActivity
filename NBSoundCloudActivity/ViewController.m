@@ -12,7 +12,7 @@
 
 #define kSoundCloudClientId @""
 #define kSoundCloudClientSecret @""
-#define kSoundCloudReferrerUrl @""
+#define kSoundCloudRedirectUrl @""
 
 @interface ViewController ()
 
