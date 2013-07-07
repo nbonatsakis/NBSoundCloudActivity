@@ -75,8 +75,8 @@
 {
     // make sure we have an instance of AVURLAsset that contains an audio track. 
     for (id item in activityItems) {
-        if ([item isKindOfClass:[AVURLAsset class]]) {
-            AVURLAsset* asset = (AVURLAsset*) item;
+        AVURLAsset *asset = [self assetFromObject:item];
+        if (asset) {
             NSArray* audioTracks = [asset tracksWithMediaType:AVMediaTypeAudio];
             if ([audioTracks count] > 0) {
                 return YES;
@@ -91,11 +91,24 @@
 {
     // fetch the instance of AVURLAsset and store it for use when constructing the activityViewController.
     for (id item in activityItems) {
-        if ([item isKindOfClass:[AVURLAsset class]]) {
-            self.asset = item;
-            return;
+        AVURLAsset *asset = [self assetFromObject:item];
+        if (asset) {
+            self.asset = asset;
         }
     }
+}
+
+- (AVURLAsset *)assetFromObject:(id)object
+{
+    if ([object isKindOfClass:[AVURLAsset class]]) {
+        return (AVURLAsset *)object;
+    }
+
+    if ([object isKindOfClass:[NSURL class]]) {
+        return [AVURLAsset assetWithURL:(NSURL *)object];
+    }
+
+    return nil;
 }
 
 - (UIViewController*) activityViewController

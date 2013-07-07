@@ -92,11 +92,17 @@ static Class mockSC;
                          redirectURL:[NSURL URLWithString:kRefUrl]];
 }
 
-- (void) testCanPerformWithActivityItems_audio_asset_only
+- (void) testCanPerformWithActivityItems_audio_asset
 {
     NSURL* sampleURL = [[NSBundle mainBundle] URLForResource:@"sample" withExtension:@"caf"];
     AVURLAsset* asset = [AVURLAsset assetWithURL:sampleURL];
     STAssertTrue([self.activity canPerformWithActivityItems:@[asset]], nil);
+}
+
+- (void) testCanPerformWithActivityItems_ns_url_of_audio_file
+{
+    NSURL* sampleURL = [[NSBundle mainBundle] URLForResource:@"sample" withExtension:@"caf"];
+    STAssertTrue([self.activity canPerformWithActivityItems:@[sampleURL]], nil);
 }
 
 - (void) testCanPerformWithActivityItems_non_audio_asset
@@ -104,6 +110,7 @@ static Class mockSC;
     NSURL* sampleURL = [[NSBundle mainBundle] URLForResource:@"soundcloud_activity" withExtension:@"png"];
     AVURLAsset* asset = [AVURLAsset assetWithURL:sampleURL];
     STAssertFalse([self.activity canPerformWithActivityItems:@[asset]], nil);
+    STAssertFalse([self.activity canPerformWithActivityItems:@[sampleURL]], nil);
 }
 
 - (void) testCanPerformWithActivityItems_non_asset
